@@ -25,7 +25,7 @@ def login():
         navegador.find_element(By.ID, 'botaoEntrar').click()
     except Exception(e):
         print(e)
-    time.sleep(40)
+    time.sleep(5)
 
 
 def mapao():
